@@ -1,0 +1,57 @@
+.navbar {
+  height: 80px;
+  background-color: #151727;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 39px;
+  font-family: Ubuntu;
+
+  &__logo {
+    height: 40px;
+    width: 200px;
+    margin: auto;
+    margin-left: 130px;
+  }
+  &__nav {
+    display: flex;
+    list-style: none;
+  }
+  &__nav-item {
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin-right: 40px;
+
+    a{
+      text-decoration: none;
+      color: #fff;
+    }
+  }
+  &__sign-out {
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    border: none;
+    outline: none;
+    color: #39d1a4;
+    background-color: transparent;
+    cursor: pointer;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+
+    &::before{
+      display: block;
+      content: '';
+      height: 80px;
+      width: 1px;
+      background-color: rgba(255, 255, 255, 0.07);
+      margin-right: 40px;
+    }
+  }
+}

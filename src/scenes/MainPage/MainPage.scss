@@ -1,0 +1,21 @@
+.main {
+
+  &__title {
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    color: #131e32;
+    text-align: center;
+
+    .green{
+      color: #39d1a4;
+    }
+  }
+  &__about{
+    font-family: Ubuntu;
+    word-spacing: 5px;
+    line-height: 50px;
+    margin-bottom: 100px;
+  }
+}

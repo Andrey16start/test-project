@@ -1,0 +1,85 @@
+.news {
+
+  &__title {
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    color: #131e32;
+    text-align: center;
+    margin: 90px 0 50px;
+
+    .green{
+      color: #39d1a4;
+    }
+  }
+}
+
+.news-item {
+  display: flex;
+  background-color: #ffffff;
+  padding: 20px;
+  width: 1000px;
+  margin: auto;
+  margin-bottom: 20px;
+
+  &__photo {
+    width: 160px;
+    height: 160px;
+  }
+  &__info {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+  }
+  &__title {
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    color: #131e32;
+    margin: 0 0 12px;
+  }
+  &__text {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 22px;
+    color: #5e708d;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 6px;
+  }
+  &__footer {
+    border-top: 1px solid rgba(94, 112, 141, 0.1);
+    margin-top: 14px;
+    display: flex;
+  }
+  &__logo {
+    width: 36px;
+    height: 36px;
+    margin-right: 10px;
+  }
+  &__footer-text {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #5e708d;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  &__logo-text {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    color: #131e32;
+  }
+}

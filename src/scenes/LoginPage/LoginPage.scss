@@ -1,0 +1,22 @@
+.login {
+  width: 50vw;
+  max-width: 600px;
+  min-width: 400px;
+  margin: auto;
+  margin-top: 15vh;
+  font-family: Ubuntu;
+
+  &__title {
+    font-size: 18px;
+    margin: 0 0 25px;
+    text-align: center;
+  }
+  &__pending-wrap {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    margin: auto;
+  }
+}

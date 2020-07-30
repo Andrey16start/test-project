@@ -1,0 +1,23 @@
+.profile{
+  margin-top: 40px;
+  display: flex;
+  align-items: flex-start;
+
+  &__avatar{
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    overflow: hidden;
+    margin-right: 25px;
+  }
+  &__info{
+    list-style: none;
+    margin-right: 5px;
+    line-height: 60px;
+  }
+  &__info-key{
+    font-family: Oswald;
+    letter-spacing: 2px;
+    font-weight: 600;
+  }
+}
